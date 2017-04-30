@@ -1,5 +1,9 @@
-title            : RBootcamp
-description      : This is an automatically generated demo course which will help you on your way to create an awesome DataCamp course.
-university       : DataCamp
-difficulty_level : 2
-time_needed      : 1 hour
+title            : RBootcamp - DataCamp
+instructors      : Olga Scrivner, Jefferson Davis
+university       : IU at DataCamp
+difficulty_level : 0
+time_needed      : 2 hour every day
+programming_langauge: r
+description: In this 5-day long RBootcamp, you will master the basics of r programming language. You will learn
+  how to process, analyze and visualize your data. Each day you will have a lecture and hands-on activities using DataCamp.
+  
