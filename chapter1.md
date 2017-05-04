@@ -7,7 +7,7 @@ slides_link :
 --- type:NormalExercise xp:100 skills:1 key:1f9a0ebdf7
 ## How it works
 
-#### Instructions
+##### Introduction
 1. On the right is the R editor.
 2. Type R code in the editor to solve the exercises. 
 3. Hit the 'Submit Answer' button to execute R.
@@ -17,11 +17,12 @@ slides_link :
 
 ##### Comments
 R makes use of the `#` sign to add comments. The line with `#` at the beginning will not be executed. For example, _Calculate 3 + 4_ in the editor on the right is a comment. 
+
 ##### Console
 You can also execute R commands straight in the console. You can experiment with code in the console before submiting your assignments. 
 
 *** =instructions
-- In the editor on the right there is already some sample code. Can you see which lines are actual R code and which are comments?
+- In the editor on the right you have some sample code. Which lines are actual R code and which are comments?
 - Add a line of code that calculates the sum of 6 and 12, and hit the 'Submit Answer' button.
 
 *** =hint
