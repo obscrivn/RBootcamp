@@ -7,7 +7,7 @@ attachments:
 --- type:NormalExercise xp:100 skills:1 key:1f9a0ebdf7
 ## How it works
 
-Before this hands-on please study the lecture [link] https://www.slideshare.net/obscrivn/introduction-to-rstudio
+Before this hands-on please study the lecture [link] (https://www.slideshare.net/obscrivn/introduction-to-rstudio)
 ##### Introduction
 1. On the right is the R editor.
 2. Type R code in the editor to solve the exercises. 
