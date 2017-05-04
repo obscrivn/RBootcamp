@@ -23,10 +23,11 @@ You can also execute R commands straight in the console. You can experiment with
 
 *** =instructions
 - In the editor on the right you have some sample code. Which lines are actual R code and which are comments?
-- Add a line of code that calculates the sum of 6 and 12, and hit the 'Submit Answer' button.
+- Add a line of code that calculates the sum of 3 and 5, and hit the 'Submit Answer' button.
+- Add a comment (for example, thsi is my first R code)
 
 *** =hint
-Just add a line of R code that calculates the sum of 6 and 12, just like the example in the sample code!
+Just add a line of R code that calculates the sum of 3 and 5, just like the example in the sample code!
 
 *** =pre_exercise_code
 ```{r}
@@ -35,25 +36,25 @@ Just add a line of R code that calculates the sum of 6 and 12, just like the exa
 
 *** =sample_code
 ```{r}
-# Calculate 3 + 4
-3 + 4
+# Calculate 1 + 2
+1 + 2
 
-# Calculate 6 + 12
+# Calculate 3 + 5
 
 ```
 
 *** =solution
 ```{r}
-# Calculate 3 + 4
-3 + 4
+# Calculate 1 + 2
+1 + 2
 
-# Calculate 6 + 12
-6 + 12
+# Calculate 3 + 5
+3 + 5
 ```
 
 *** =sct
 ```{r}
-test_output_contains("18", incorrect_msg = "Make sure to add `6 + 12` on a new line. Do not start the line with a `#`, otherwise your R code is not executed!")
+test_output_contains("8", incorrect_msg = "Make sure to add `3 + 5` on a new line. Do not start the line with a `#`, otherwise your R code is not executed!")
 success_msg("Awesome! See how the console shows the result of the R code you submitted? Now that you're familiar with the interface, let's get down to R business!")
 ```
 
