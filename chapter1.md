@@ -65,8 +65,8 @@ success_msg("Awesome! See how the console shows the result of the R code you sub
 
 Practice uploading packages using R code:
 
-1.Install package with _install.packages('name')_
-2. Activate library with _library(name)
+1. Install package with _install.packages('name')_
+2. Activate library with _library(name)_
 
 
 *** =instructions
@@ -75,14 +75,14 @@ Practice uploading packages using R code:
 
 *** =pre_exercise_code
 ```{r}
-install.packages('ggplot2')
+install.packages(ggplot2)
 library(ggplot2)
 ```
 
 *** =sample_code
 ```{r}
 # Installing packages
-install.packages('ggplot2')
+install.packages(ggplot2)
 library(ggplot2)
 
 # Install now plyr package
@@ -94,11 +94,11 @@ library(ggplot2)
 *** =solution
 ```{r}
 # Installing packages
-install.packages('ggplot2')
+install.packages(ggplot2)
 library(ggplot2)
 
 # Install now plyr package
-install.packages('plyr')
+install.packages(plyr)
 library(plyr)
 
 ```
