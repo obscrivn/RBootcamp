@@ -7,13 +7,18 @@ slides_link :
 --- type:NormalExercise xp:100 skills:1 key:1f9a0ebdf7
 ## How it works
 
-*Item 1 In the editor on the right you should type R code to solve the exercises. 
-*Item 2 When you hit the 'Submit Answer' button, every line of code is interpreted and executed by R and you get a message whether or not your code was correct. 
-*Item 3 The output of your R code is shown in the console in the lower right corner.
+#### Instructions
+1. On the right is the R editor.
+2. Type R code in the editor to solve the exercises. 
+3. Hit the 'Submit Answer' button to execute R.
+4. You will get a message whether or not your code was correct. 
+5. In the lower right corner is the console.
+6. The output of your R code is shown in the console.
 
-R makes use of the `#` sign to add comments, so that you and others can understand what the R code is about. Just like Twitter! Comments are not run as R code, so they will not influence your result. For example, _Calculate 3 + 4_ in the editor on the right is a comment.
-
-You can also execute R commands straight in the console. This is a good way to experiment with R code, as your submission is not checked for correctness.
+##### Comments
+R makes use of the `#` sign to add comments. The line with `#` at the beginning will not be executed. For example, _Calculate 3 + 4_ in the editor on the right is a comment. 
+##### Console
+You can also execute R commands straight in the console. You can experiment with code in the console before submiting your assignments. 
 
 *** =instructions
 - In the editor on the right there is already some sample code. Can you see which lines are actual R code and which are comments?
