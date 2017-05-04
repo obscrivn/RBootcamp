@@ -61,7 +61,7 @@ success_msg("Awesome! See how the console shows the result of the R code you sub
 ```
 
 --- type:NormalExercise xp:100 skills:1 key:b4b838e7e4
-##Packages
+##Basic Data Types
 
 Practice uploading packages using R code:
 
@@ -73,35 +73,6 @@ Practice uploading packages using R code:
 - In the code you  have an example of installing library *ggplot2*
 - Add two lines installing library *plyr* and hit the 'Submit Answer' button.
 
-*** =pre_exercise_code
-```{r}
-install.packages(ggplot2)
-library(ggplot2)
-```
-
-*** =sample_code
-```{r}
-# Installing packages
-install.packages(ggplot2)
-library(ggplot2)
-
-# Install now plyr package
-
-
-
-```
-
-*** =solution
-```{r}
-# Installing packages
-install.packages(ggplot2)
-library(ggplot2)
-
-# Install now plyr package
-install.packages(plyr)
-library(plyr)
-
-```
 
 --- type:NormalExercise xp:100 skills:1 key:b8c724ce23
 ## Arithmetic with R
