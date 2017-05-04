@@ -73,6 +73,12 @@ Practice uploading packages using R code:
 - In the code you  have an example of installing library *ggplot2*
 - Add two lines installing library *plyr* and hit the 'Submit Answer' button.
 
+*** =pre_exercise_code
+```{r}
+install.packages('ggplot2')
+library(ggplot2)
+```
+
 *** =sample_code
 ```{r}
 # Installing packages
