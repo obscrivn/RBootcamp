@@ -2,25 +2,22 @@
 title       : Day 1
 description : R Basics 
 instructors : Olga Scrivner, Jefferson Davis
-attachments:
-  slides_link: http://link.to.slides/
 --- type:NormalExercise xp:100 skills:1 key:1f9a0ebdf7
-## How it works
+## Slides
 
-Before this hands-on please study the lecture [link] (https://www.slideshare.net/obscrivn/introduction-to-rstudio)
-##### Introduction
-1. On the right is the R editor.
-2. Type R code in the editor to solve the exercises. 
-3. Hit the 'Submit Answer' button to execute R.
-4. You will get a message whether or not your code was correct. 
-5. In the lower right corner is the console.
-6. The output of your R code is shown in the console.
+1. Introduction to R and RStudio [Intro to R studio] (https://www.slideshare.net/obscrivn/introduction-to-rstudio)
+2. Intro to Data Types 
+3. 
+##### How does it work
+1.*R Editor* - top right; *Console* - bottom right.
+2. Type R code in the editor and hit the 'Submit Answer' button to execute R.
+3. You will get a message whether or not your code was correct. 
+4. The output of your R code is shown in the console.
+5. Use console also to experiment cosing befre submiting.
 
 ##### Comments
 R makes use of the `#` sign to add comments. The line with `#` at the beginning will not be executed. For example, _Calculate 3 + 4_ in the editor on the right is a comment. 
 
-##### Console
-You can also execute R commands straight in the console. You can experiment with code in the console before submiting your assignments. 
 
 *** =instructions
 - In the editor on the right you have some sample code. Which lines are actual R code and which are comments?
@@ -66,10 +63,39 @@ success_msg("Awesome! See how the console shows the result of the R code you sub
 --- type:NormalExercise xp:100 skills:1 key:b4b838e7e4
 ##Packages
 
+Practice uploading packages using R code:
+
+1.Install package with _install.packages('name')_
+2. Activate library with _library(name)
 
 
----
+*** =instructions
+- In the code you  have an example of installing library *ggplot2*
+- Add two lines installing library *plyr* and hit the 'Submit Answer' button.
 
+*** =sample_code
+```{r}
+# Installing packages
+installed.packages('ggplot2')
+library(ggplot)
+
+# Install now plyr package
+
+
+
+```
+
+*** =solution
+```{r}
+# Installing packages
+installed.packages('ggplot2')
+library(ggplot)
+
+# Install now plyr package
+installed.packages('plyr')
+library(plyr)
+
+```
 
 --- type:NormalExercise xp:100 skills:1 key:b8c724ce23
 ## Arithmetic with R
