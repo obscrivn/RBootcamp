@@ -2,7 +2,7 @@
 title       : Day 1
 description : Intro to R Practice (from https://www.datacamp.com/courses/free-introduction-to-r)
 
-
+--- type:NormalExercise xp:100 skills:1 key:1f9a0ebdf7
 ## How it works
 
 In the editor on the right you should type R code to solve the exercises. When you hit the 'Submit Answer' button, every line of code is interpreted and executed by R and you get a message whether or not your code was correct. The output of your R code is shown in the console in the lower right corner.
@@ -47,7 +47,7 @@ test_output_contains("18", incorrect_msg = "Make sure to add `6 + 12` on a new l
 success_msg("Awesome! See how the console shows the result of the R code you submitted? Now that you're familiar with the interface, let's get down to R business!")
 ```
 
---- type:NormalExercise xp:100 skills:1
+--- type:NormalExercise xp:100 skills:1 key:b8c724ce23
 ## Arithmetic with R
 
 In its most basic form, R can be used as a simple calculator. Consider the following arithmetic operators:
@@ -131,7 +131,7 @@ success_msg("Great! Head over to the next exercise.")
 ```
 
 
---- type:NormalExercise xp:100 skills:1 
+--- type:NormalExercise xp:100 skills:1 key:ab02567033
 ## Variable assignment 
 
 A basic concept in (statistical) programming is called a **variable**. 
@@ -181,7 +181,7 @@ success_msg("Good job! Have you noticed that R does not print the value of a var
 ```
 
 
---- type:NormalExercise xp:100 skills:1 
+--- type:NormalExercise xp:100 skills:1 key:c7a63aeb0e
 ## Variable assignment (2)
 
 Suppose you have a fruit basket with five apples. As a data analyst in training, you want to store the number of apples in a variable with the name `my_apples`. 
@@ -227,7 +227,7 @@ success_msg("Great! Continue to the next exercise!")
 ```
 
 
---- type:NormalExercise xp:100 skills:
+--- type:NormalExercise xp:100 skills: key:5a72984372
 ## Variable assignment (3)
 
 Every tasty fruit basket needs oranges, so you decide to add six oranges. As a data analyst, your reflex is to immediately create the variable `my_oranges` and assign the value 6 to it. Next, you want to calculate how many pieces of fruit you have in total. Since you have given meaningful names to these values, you can now code this in a clear way: 
@@ -287,7 +287,7 @@ success_msg("Nice one! The great advantage of doing calculations with variables 
 ```
 
 
---- type:NormalExercise xp:100 skills:1 
+--- type:NormalExercise xp:100 skills:1 key:5e79853c38
 ## Apples and oranges
 
 Common knowledge tells you not to add apples and oranges. But hey, that is what you just did, no :-)? The `my_apples` and `my_oranges` variables both contained a number in the previous exercise. The `+` operator works with numeric variables in R. If you really tried to add "apples" and "oranges", and assigned a text value to the variable `my_oranges` (see the editor), you would be trying to assign the addition of a numeric and a character variable to the variable `my_fruit`. This is not possible.
@@ -341,7 +341,7 @@ success_msg("Awesome, keep up the good work! Continue to the next exercise.")
 ```
 
 
---- type:NormalExercise xp:100 skills:1 
+--- type:NormalExercise xp:100 skills:1 key:5b76b2ec52
 ## Basic data types in R
 
 R works with numerous data types. Some of the most basic types to get started are:
@@ -404,7 +404,7 @@ success_msg("Great work! Continue to the next exercise.")
 ```
 
 
---- type:NormalExercise xp:100 skills:1 
+--- type:NormalExercise xp:100 skills:1 key:097c347c1c
 ## What's that data type?
 
 Do you remember that when you added `5 + "six"`, you got an error due to a mismatch in data types? You can avoid such embarrassing situations by checking the data type of a variable beforehand. You can do this with the `class()` function, as the code on the right shows.
