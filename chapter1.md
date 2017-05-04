@@ -1,11 +1,15 @@
 ---
 title       : Day 1
-description : Intro to R Practice (from https://www.datacamp.com/courses/free-introduction-to-r)
-
+description : Intro to R Practice (modified from https://www.datacamp.com/courses/free-introduction-to-r)
+instructors : Olga Scrivner, Jefferson Davis
+attachments :
+slides_link :
 --- type:NormalExercise xp:100 skills:1 key:1f9a0ebdf7
 ## How it works
 
-In the editor on the right you should type R code to solve the exercises. When you hit the 'Submit Answer' button, every line of code is interpreted and executed by R and you get a message whether or not your code was correct. The output of your R code is shown in the console in the lower right corner.
+*Item 1 In the editor on the right you should type R code to solve the exercises. 
+*Item 2 When you hit the 'Submit Answer' button, every line of code is interpreted and executed by R and you get a message whether or not your code was correct. 
+*Item 3 The output of your R code is shown in the console in the lower right corner.
 
 R makes use of the `#` sign to add comments, so that you and others can understand what the R code is about. Just like Twitter! Comments are not run as R code, so they will not influence your result. For example, _Calculate 3 + 4_ in the editor on the right is a comment.
 
