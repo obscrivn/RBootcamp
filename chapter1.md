@@ -2,8 +2,8 @@
 title       : Day 1
 description : R Basics 
 instructors : Olga Scrivner, Jefferson Davis
-attachments : Exercises are modified from https://www.datacamp.com/courses/free-introduction-to-r
-slides_link :
+#attachments : Exercises are modified from https://www.datacamp.com/courses/free-introduction-to-r
+#slides_link :
 --- type:NormalExercise xp:100 skills:1 key:1f9a0ebdf7
 ## How it works
 
@@ -61,6 +61,14 @@ Just add a line of R code that calculates the sum of 3 and 5, just like the exam
 test_output_contains("8", incorrect_msg = "Make sure to add `3 + 5` on a new line. Do not start the line with a `#`, otherwise your R code is not executed!")
 success_msg("Awesome! See how the console shows the result of the R code you submitted? Now that you're familiar with the interface, let's get down to R business!")
 ```
+
+--- type:NormalExercise xp:100 skills:1 key:b4b838e7e4
+##Packages
+
+
+
+---
+
 
 --- type:NormalExercise xp:100 skills:1 key:b8c724ce23
 ## Arithmetic with R
