@@ -1,8 +1,8 @@
 ---
 title       : Day 1
-description : Intro to R Practice (modified from https://www.datacamp.com/courses/free-introduction-to-r)
+description : R Basics 
 instructors : Olga Scrivner, Jefferson Davis
-attachments :
+attachments : Exercises are modified from https://www.datacamp.com/courses/free-introduction-to-r
 slides_link :
 --- type:NormalExercise xp:100 skills:1 key:1f9a0ebdf7
 ## How it works
