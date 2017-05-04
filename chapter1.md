@@ -76,7 +76,7 @@ Practice uploading packages using R code:
 *** =sample_code
 ```{r}
 # Installing packages
-installed.packages('ggplot2')
+install.packages('ggplot2')
 library(ggplot2)
 
 # Install now plyr package
