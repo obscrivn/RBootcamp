@@ -1,8 +1,8 @@
 ---
 title       : Day 1
 description : Intro to R Practice (from https://www.datacamp.com/courses/free-introduction-to-r)
-attachments :
-  slides_link : https://www.datacamp.com/courses/free-introduction-to-r
+reference :
+  link : [link](https://www.datacamp.com/courses/free-introduction-to-r)
 
 ## How it works
 
