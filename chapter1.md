@@ -24,7 +24,7 @@ You can also execute R commands straight in the console. You can experiment with
 *** =instructions
 - In the editor on the right you have some sample code. Which lines are actual R code and which are comments?
 - Add a line of code that calculates the sum of 3 and 5, and hit the 'Submit Answer' button.
-- Add a comment (for example, thsi is my first R code)
+- Add a comment *This is my script*
 
 *** =hint
 Just add a line of R code that calculates the sum of 3 and 5, just like the example in the sample code!
@@ -41,6 +41,8 @@ Just add a line of R code that calculates the sum of 3 and 5, just like the exam
 
 # Calculate 3 + 5
 
+
+
 ```
 
 *** =solution
@@ -50,6 +52,8 @@ Just add a line of R code that calculates the sum of 3 and 5, just like the exam
 
 # Calculate 3 + 5
 3 + 5
+
+# This is my script
 ```
 
 *** =sct
