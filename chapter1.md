@@ -88,11 +88,11 @@ library(ggplot2)
 *** =solution
 ```{r}
 # Installing packages
-installed.packages('ggplot2')
-library(ggplot)
+install.packages('ggplot2')
+library(ggplot2)
 
 # Install now plyr package
-installed.packages('plyr')
+install.packages('plyr')
 library(plyr)
 
 ```
