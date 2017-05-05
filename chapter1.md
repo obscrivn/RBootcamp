@@ -156,10 +156,11 @@ success_msg("Great! Head over to the next exercise.")
 * A **character**  is used to represent string:
 `name <- "John"`
 
-* Character strings can be `paste' together:
-`fname <- Mary`
-`lname <- Johnson`
-`paste(fname,lname)`
+* Character strings can be `paste` together:
+
+-`fname <- Mary`
+-`lname <- Johnson`
+-`paste(fname,lname)`
 
 * You can convert numeric into a character with `as.character(x)`
 
@@ -191,9 +192,17 @@ x <- 3
 ```
 *** =solution
 ```{r}
+# Type your first name
+fname <-
 
+# Type your last name
+lname <-
+
+# Paste fname and lname
 paste(fname,lname)
 
+#Convert x into a character string
+x <- 3
 as.character(x)
 ```
 
