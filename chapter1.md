@@ -104,6 +104,7 @@ x + y
 # Exponentiation
 
 
+# Check the class of y
 ```
 
 *** =solution
@@ -124,6 +125,9 @@ x / y
 
 # Exponentiation
 x ^ y
+
+# Check the class of y
+class(y)
 ```
 
 *** =sct
@@ -133,6 +137,7 @@ test_output_contains("x^y", incorrect_msg = "The exponentiation example is not c
 test_output_contains("x / y", incorrect_msg = "Write `x / y` on a new line.")
 test_output_contains("x * y", incorrect_msg = "Write `x * y` on a new line.")
 test_output_contains("x - y", incorrect_msg = "Write `x - y` on a new line.")
+test_output_contains("class(y)", incorrect_msg = "Write `class(y)` on a new line.")
 success_msg("Great! Head over to the next exercise.")
 ```
 --- type:NormalExercise xp:100 skills:1 key:ab02567033
