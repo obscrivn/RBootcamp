@@ -2,7 +2,7 @@
 title       : Day 1
 description : R Basics 
 instructors : Olga Scrivner, Jefferson Davis
---- type:NormalExercise xp:100 skills:1 key:1f9a0ebdf7
+--- type:NormalExercise xp:50 skills:1 key:1f9a0ebdf7
 ## Slides
 
 1. Introduction to R and RStudio [Intro to R studio] (https://www.slideshare.net/obscrivn/introduction-to-rstudio)
@@ -21,10 +21,12 @@ R makes use of the `#` sign to add comments. The line with `#` at the beginning 
 
 *** =instructions
 - In the editor on the right you have some sample code. Which lines are actual R code and which are comments?
-- Add a line of code that calculates the sum of 3 and 5, and hit the 'Submit Answer' button.
+- Add a line of code that calculates the sum of 3 and 5
+- Add a line with comment saying **This is my first script**
+- Hit the 'Submit Answer' button.
 
 *** =hint
-Just add a line of R code that calculates the sum of 3 and 5, just like the example in the sample code!
+Just add a line of R code that calculates the sum of 3 and 5.
 
 *** =pre_exercise_code
 ```{r}
@@ -38,6 +40,9 @@ Just add a line of R code that calculates the sum of 3 and 5, just like the exam
 
 # Calculate 3 + 5
 
+
+
+
 ```
 
 *** =solution
@@ -47,6 +52,8 @@ Just add a line of R code that calculates the sum of 3 and 5, just like the exam
 
 # Calculate 3 + 5
 3 + 5
+
+# This is my first script
 ```
 
 *** =sct
