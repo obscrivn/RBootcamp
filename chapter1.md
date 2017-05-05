@@ -165,8 +165,9 @@ Select the correct data type for **x**
 *** =sct
 ```{r}
 msg1 = "Try again! Think about quotes"
-msg3 = "Well done. Proceed to the next exercise"
-test_mc(correct = "character", feedback_msgs = msg3)
+msg2 = "Well done. Proceed to the next exercise"
+msg1 = "Try again! Think about quotes"
+test_mc(correct = "character", feedback_msgs = c(msg1,msg2,msg3)
 ```
 
 --- type:type:MultipleChoiceExercise xp:50 skills:1 key:a0f4522f4e
@@ -187,9 +188,11 @@ Select the correct data type for **x**
 
 *** =sct
 ```{r}
-msg1 = "Try again!"
-msg3 = "Well done. Proceed to the next exercise"
-test_mc(correct = "logical", feedback_msgs = msg3)
+
+msg1 = "Well done. Proceed to the next exercise"
+msg2 = "Try again!"
+msg3 = "Try again!"
+test_mc(correct = "logical", feedback_msgs = c(msg1,msg2,msg3)
 ```
 
 --- type:NormalExercise xp:100 skills:1 key:ab02567033
