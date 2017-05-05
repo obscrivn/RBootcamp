@@ -14,7 +14,9 @@ attachments:
 
 
 *** =pre_exercise_code
+```{r}
 
+```
 
 *** =sample_code
 ```{r}
