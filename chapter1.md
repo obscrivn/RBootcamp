@@ -141,12 +141,66 @@ class(y)
 
 *** =sct
 ```{r}
-msg = "Do not remove the other arithmetic examples!"
+#msg = "Do not remove the other arithmetic examples!"
 test_output_contains("x^y", incorrect_msg = "The exponentiation example is not correct. Write `x ^ y` on a new line.")
 test_output_contains("x / y", incorrect_msg = "Write `x / y` on a new line.")
 test_output_contains("x * y", incorrect_msg = "Write `x * y` on a new line.")
 test_output_contains("x - y", incorrect_msg = "Write `x - y` on a new line.")
 test_output_contains("class(y)", incorrect_msg = "Write `class(y)` on a new line.")
+success_msg("Great! Head over to the next exercise.")
+```
+
+--- type:NormalExercise xp:100 skills:1 key:fcac6f7191
+## Basic Data Types: Character
+
+* A **character**  is used to represent string:
+`name <- "John"`
+
+* Character strings can be `paste' together:
+`fname <- Mary`
+`lname <- Johnson`
+`paste(fname,lname)`
+
+* You can convert numeric into a character with `as.character(x)`
+
+*** =instructions
+- Create a variable with your first name (do not forget quotes)
+- Create a variable with your last name (do not forget quotes)
+- Paste two variables into one string
+- Convert the number into a character string
+
+*** =pre_exercise_code
+```{r}
+# no pec
+```
+*** =sample_code
+```{r}
+# Type your first name
+fname <-
+
+# Type your last name
+lname <-
+
+# Paste fname and lname
+
+
+#Convert x into a character string
+x <- 3
+
+
+```
+*** =solution
+```{r}
+
+paste(fname,lname)
+
+as.character(x)
+```
+
+*** =sct
+```{r}
+test_output_contains("paste(fname,lname)", incorrect_msg = "Use paste function.")
+test_output_contains("as.character(x)", incorrect_msg = "use as.character function.")
 success_msg("Great! Head over to the next exercise.")
 ```
 
