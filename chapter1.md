@@ -2,6 +2,7 @@
 title       : Day 1
 description : R Basics 
 instructors : Olga Scrivner, Jefferson Davis
+
 --- type:NormalExercise xp:100 skills:1 key:1f9a0ebdf7
 ## Slides
 
