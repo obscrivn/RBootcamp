@@ -193,10 +193,10 @@ x <- 3
 *** =solution
 ```{r}
 # Type your first name
-fname <-
+fname <- "[a-zA-Z]+"
 
 # Type your last name
-lname <-
+lname <-"[a-zA-Z]+"
 
 # Paste fname and lname
 paste(fname,lname)
