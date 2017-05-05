@@ -172,6 +172,7 @@ success_msg("Great! Head over to the next exercise.")
 - Paste two variables into one string
 - Convert the number into a character string
 
+*Do not forget to scroll down your R editor*
 *** =hint
 Remember characters must be enclosed into quotes, numbers are not.
 
@@ -218,7 +219,7 @@ test_output_contains("as.character(x)", incorrect_msg = "use as.character functi
 success_msg("Great! Head over to the next exercise.")
 ```
 
---- type:type:MultipleChoiceExercise xp:50 skills:1 key:5ba953ae37
+--- type:MultipleChoiceExercise xp:50 skills:1 key:5ba953ae37
 ## Data Type Quiz I
 
 Select the correct data type for **x**
@@ -238,7 +239,7 @@ msg3 = "Try again! Think about quotes"
 test_mc(correct = 2, feedback_msgs = c(msg1,msg2,msg3))
 ```
 
---- type:type:MultipleChoiceExercise xp:50 skills:1 key:a0f4522f4e
+--- type:MultipleChoiceExercise xp:50 skills:1 key:a0f4522f4e
 ## Data Type Quiz II
 
 Select the correct data type for **x**
