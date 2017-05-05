@@ -208,8 +208,8 @@ as.character(x)
 
 *** =sct
 ```{r}
-test_output_contains("paste(fname,lname)", incorrect_msg = "Use paste function.")
-test_output_contains("as.character(x)", incorrect_msg = "use as.character function.")
+test_output_contains("paste(fname,lname)", incorrect_msg = "Use paste function with two variables.")
+test_output_contains("as.character(x)", incorrect_msg = "use as.character function - do not forget parenthesis.")
 success_msg("Great! Head over to the next exercise.")
 ```
 
