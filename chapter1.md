@@ -75,10 +75,10 @@ Checking class `class(x)`
 - You have two numeric variables *x* and *y*
 - Calculate their sum, substraction, multiplication, division, and exponentiation.
 - Click 'Submit Answer' and have a look at the R output in the console.
-- Note how the `#` symbol is used to add comments on the R code.
+- In console check the class
 
 *** =hint
-Another example of the modulo operator: `9 %% 2` equals `1`.
+Check class with `class()` function
 
 *** =pre_exercise_code
 ```{r}
