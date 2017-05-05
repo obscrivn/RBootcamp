@@ -166,7 +166,7 @@ Select the correct data type for **x**
 ```{r}
 msg1 = "Try again! Think about quotes"
 msg2 = "Well done. Proceed to the next exercise"
-msg1 = "Try again! Think about quotes"
+msg3 = "Try again! Think about quotes"
 test_mc(correct = "character", feedback_msgs = c(msg1,msg2,msg3))
 ```
 
