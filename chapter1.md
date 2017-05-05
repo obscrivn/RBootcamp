@@ -72,8 +72,9 @@ Checking class `class(x)`
 
 
 *** =instructions
-- You have two numeric variables *x* and *y*
+- You have two numeric variables **x** and **y**
 - Calculate their sum, substraction, multiplication, division, and exponentiation.
+- Check class for **y**
 - Click 'Submit Answer' and have a look at the R output in the console.
 - In console check the class
 
@@ -105,6 +106,7 @@ x + y
 
 
 # Check the class of y
+
 ```
 
 *** =solution
