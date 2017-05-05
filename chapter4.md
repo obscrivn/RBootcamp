@@ -15,6 +15,7 @@ Before starting this hands-on practice make sure to view this lecture [Intro to 
 
 
 *** =pre_exercise_code
+```{r}
 # Pre-load dplyr to access mtcars
 library(dplyr)
 # Pre-load dplyr to access plot functions
@@ -22,6 +23,7 @@ library(ggplot2)
 
 # load mtcars:
 mtcars <- data(mtcars)
+```
 
 *** =sample_code
 ```{r}
