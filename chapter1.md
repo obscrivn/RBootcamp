@@ -8,7 +8,7 @@ instructors : Olga Scrivner, Jefferson Davis
 1. Introduction to R and RStudio [Intro to R studio] (https://www.slideshare.net/obscrivn/introduction-to-rstudio)
 2. Intro to Data Types 
 3. 
-##### How does it work
+##### Learning how to use R Editor
 1.*R Editor* - top right; *Console* - bottom right.
 2. Type R code in the editor and hit the 'Submit Answer' button to execute R.
 3. You will get a message whether or not your code was correct. 
@@ -22,7 +22,6 @@ R makes use of the `#` sign to add comments. The line with `#` at the beginning 
 *** =instructions
 - In the editor on the right you have some sample code. Which lines are actual R code and which are comments?
 - Add a line of code that calculates the sum of 3 and 5, and hit the 'Submit Answer' button.
-- Add a comment *This is my script*
 
 *** =hint
 Just add a line of R code that calculates the sum of 3 and 5, just like the example in the sample code!
@@ -39,8 +38,6 @@ Just add a line of R code that calculates the sum of 3 and 5, just like the exam
 
 # Calculate 3 + 5
 
-
-
 ```
 
 *** =solution
@@ -50,8 +47,6 @@ Just add a line of R code that calculates the sum of 3 and 5, just like the exam
 
 # Calculate 3 + 5
 3 + 5
-
-# This is my script
 ```
 
 *** =sct
@@ -61,41 +56,24 @@ success_msg("Awesome! See how the console shows the result of the R code you sub
 ```
 
 --- type:NormalExercise xp:100 skills:1 key:b4b838e7e4
-##Basic Data Types
+##Basic Data Types: Numeric
+Assign a value with `<-`
+`x <- 1`
 
-Practice uploading packages using R code:
+Checking class `class(x)`
 
-1. Install package with _install.packages('name')_
-2. Activate library with _library(name)_
-
-
-*** =instructions
-- In the code you  have an example of installing library *ggplot2*
-- Add two lines installing library *plyr* and hit the 'Submit Answer' button.
-
-
---- type:NormalExercise xp:100 skills:1 key:b8c724ce23
-## Arithmetic with R
-
-In its most basic form, R can be used as a simple calculator. Consider the following arithmetic operators:
+###Arithmetic Operators
 
 - Addition: `+`
 - Subtraction: `-`
 - Multiplication: `*`
 - Division: `/`
 - Exponentiation: `^`
-- Modulo: `%%`
 
-The last two might need some explaining:
-
-- The `^` operator raises the number to its left to the power of the number to its right: for example `3^2` is 9.
-- The modulo returns the remainder of the division of the number to the left by the number on its right, for example 5 modulo 3 or `5 %% 3` is 2.
-
-With this knowledge, follow the instructions below to complete the exercise.
 
 *** =instructions
-- Type `2^5` in the editor to calculate 2 to the power 5.
-- Type `28 %% 6` to calculate 28 modulo 6.
+- You have two numeric variables *x* and *y*
+- Calculate their sum, substraction, multiplication, division, and exponentiation.
 - Click 'Submit Answer' and have a look at the R output in the console.
 - Note how the `#` symbol is used to add comments on the R code.
 
@@ -109,55 +87,54 @@ Another example of the modulo operator: `9 %% 2` equals `1`.
 
 *** =sample_code
 ```{r}
+x <- 2
+y <- 3
 # An addition
-5 + 5 
+x + y 
 
 # A subtraction
-5 - 5 
+
 
 # A multiplication
-3 * 5
+
 
  # A division
-(5 + 5) / 2 
+ 
 
 # Exponentiation
 
-
-# Modulo
 
 ```
 
 *** =solution
 ```{r}
+x <- 2
+y <- 3
 # An addition
-5 + 5
+x + y
 
 # A subtraction
-5 - 5 
+x - y 
 
 # A multiplication
-3 * 5
+x * y
 
  # A division
-(5 + 5) / 2 
+x / y 
 
 # Exponentiation
-2 ^ 5
-
-# Modulo
-28 %% 6
+x ^ y
 ```
 
 *** =sct
 ```{r}
 msg = "Do not remove the other arithmetic examples!"
-test_output_contains("2^5", incorrect_msg = "The exponentiation example is not correct. Write `2 ^ 5` on a new line.")
-test_output_contains("28 %% 6", incorrect_msg = "There seems to be an issue with the modulo example. Write `28 %% 6` on a new line.")
+test_output_contains("x^y", incorrect_msg = "The exponentiation example is not correct. Write `x ^ y` on a new line.")
+test_output_contains("x / y", incorrect_msg = "Write `x / y` on a new line.")
+test_output_contains("x * y", incorrect_msg = "Write `x * y` on a new line.")
+test_output_contains("x - y", incorrect_msg = "Write `x - y` on a new line.")
 success_msg("Great! Head over to the next exercise.")
 ```
-
-
 --- type:NormalExercise xp:100 skills:1 key:ab02567033
 ## Variable assignment 
 
