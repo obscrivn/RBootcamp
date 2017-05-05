@@ -63,7 +63,10 @@ success_msg("Awesome! See how the console shows the result of the R code you sub
 ```
 
 --- type:NormalExercise xp:100 skills:1 key:b4b838e7e4
-##Basic Data Types: Numeric
+##Basic Data Types: Numerics and Integers
+- Decimals values like `4.5` are called **numerics**.
+- Natural numbers like `4` are called **integers**. Integers are also numerics.
+
 Assign a value with `<-`
 `x <- 1`
 
