@@ -172,6 +172,9 @@ success_msg("Great! Head over to the next exercise.")
 - Paste two variables into one string
 - Convert the number into a character string
 
+*** =hint
+Remember characters must be enclosed into quotes, numbers are not.
+
 *** =pre_exercise_code
 ```{r}
 # no pec
