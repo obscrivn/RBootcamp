@@ -167,7 +167,7 @@ Select the correct data type for **x**
 msg1 = "Try again! Think about quotes"
 msg2 = "Well done. Proceed to the next exercise"
 msg3 = "Try again! Think about quotes"
-test_mc(correct = "character", feedback_msgs = c(msg1,msg2,msg3))
+test_mc(correct = 2, feedback_msgs = c(msg1,msg2,msg3))
 ```
 
 --- type:type:MultipleChoiceExercise xp:50 skills:1 key:a0f4522f4e
@@ -192,7 +192,7 @@ Select the correct data type for **x**
 msg1 = "Well done. Proceed to the next exercise"
 msg2 = "Try again!"
 msg3 = "Try again!"
-test_mc(correct = "logical", feedback_msgs = c(msg1,msg2,msg3))
+test_mc(correct = 1, feedback_msgs = c(msg1,msg2,msg3))
 ```
 
 --- type:NormalExercise xp:100 skills:1 key:ab02567033
