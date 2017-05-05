@@ -76,7 +76,6 @@ Checking class `class(x)`
 - Calculate their sum, substraction, multiplication, division, and exponentiation.
 - Check class for **y**
 - Click 'Submit Answer' and have a look at the R output in the console.
-- In console check the class
 
 *** =hint
 Check class with `class()` function
