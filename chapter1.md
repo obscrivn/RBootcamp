@@ -158,9 +158,11 @@ success_msg("Great! Head over to the next exercise.")
 
 * Character strings can be `paste` together:
 
--`fname <- Mary`
--`lname <- Johnson`
--`paste(fname,lname)`
+ `fname <- Mary`
+ 
+ `lname <- Johnson`
+ 
+ `paste(fname,lname)`
 
 * You can convert numeric into a character with `as.character(x)`
 
