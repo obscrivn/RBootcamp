@@ -161,17 +161,13 @@ Select the correct data type for **x**
 - character
 - numeric
 
-*** =pre_exercise_code
-```{r}
-# no pec
-```
 
 *** =sct
-```{r}
+
 msg1 = "Try again! Think about quotes"
 msg3 = "Well done. Proceed to the next exercise"
-test_mc(correct = "character", feedback_msgs = c(msg1,msg3))
-```
+test_mc(correct = "character", feedback_msgs = msg3)
+
 
 --- type:type:MultipleChoiceExercise xp:50 skills:1 key:a0f4522f4e
 ## Data Type Quiz II
