@@ -150,7 +150,7 @@ test_output_contains("class(y)", incorrect_msg = "Write `class(y)` on a new line
 success_msg("Great! Head over to the next exercise.")
 ```
 
---- type:MultipleChoice xp:100 skills:1 key:5ba953ae37
+--- type:type:MultipleChoiceExercise xp:50 skills:1 key:5ba953ae37
 ## Data Type Quiz I
 
 Select the correct data type for **x**
@@ -172,7 +172,7 @@ msg1 = "Try again! Think about quotes"
 msg3 = "Well done. Proceed to the next exercise"
 test_mc(correct = "character", feedback_msgs = c(msg1,msg3))
 
---- type:MultipleChoice xp:100 skills:1 key:a0f4522f4e
+--- type:type:MultipleChoiceExercise xp:50 skills:1 key:a0f4522f4e
 ## Data Type Quiz II
 
 Select the correct data type for **x**
