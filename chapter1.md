@@ -3,7 +3,7 @@ title       : Day 1
 description : R Basics 
 
 --- type:NormalExercise xp:50 skills:1 key:1f9a0ebdf7
-## Slides
+## Introduction
 
 1. Introduction to R and RStudio [Intro to R studio] (https://www.slideshare.net/obscrivn/introduction-to-rstudio)
 2. Intro to Data Types 
@@ -149,6 +149,51 @@ test_output_contains("x - y", incorrect_msg = "Write `x - y` on a new line.")
 test_output_contains("class(y)", incorrect_msg = "Write `class(y)` on a new line.")
 success_msg("Great! Head over to the next exercise.")
 ```
+
+--- type:MultipleChoice xp:100 skills:1 key:5ba953ae37
+## Data Type Quiz I
+
+Select the correct data type for **x**
+
+`x <- "3"` 
+*** =instructions
+- logical
+- character
+- numeric
+
+*** =pre_exercise_code
+```{r}
+# no pec
+```
+
+*** =sct
+```{r}
+msg1 = "Try again! Think about quotes"
+msg3 = "Well done. Proceed to the next exercise"
+test_mc(correct = "character", feedback_msgs = c(msg1,msg3))
+
+--- type:MultipleChoice xp:100 skills:1 key:a0f4522f4e
+## Data Type Quiz II
+
+Select the correct data type for **x**
+
+`x <- TRUE` 
+*** =instructions
+- logical
+- character
+- numeric
+
+*** =pre_exercise_code
+```{r}
+# no pec
+```
+
+*** =sct
+```{r}
+msg1 = "Try again!"
+msg3 = "Well done. Proceed to the next exercise"
+test_mc(correct = "logical", feedback_msgs = c(msg1,msg3))
+
 --- type:NormalExercise xp:100 skills:1 key:ab02567033
 ## Variable assignment 
 
