@@ -7,6 +7,13 @@ attachments:
 ## Intro
 Before starting this hands-on practice make sure to view this lecture [Intro to R visualization] (https://www.slideshare.net/obscrivn/r-visualization-ggplot2-googlevis-plotly-igraph-overview/)
 
+
+*** =instructions
+
+
+*** =hint
+
+
 *** =pre_exercise_code
 # Pre-load dplyr to access mtcars
 library(dplyr)
@@ -15,3 +22,18 @@ library(ggplot2)
 
 # load mtcars:
 mtcars <- data(mtcars)
+
+*** =sample_code
+```{r}
+
+```
+
+*** =solution
+```{r}
+
+```
+
+*** =sct
+```{r}
+success_msg("Awesome!")
+```
