@@ -1,12 +1,12 @@
 ---
 title       : Day 1
-description : R Basics 
+description : R Basics. You will work with various data types, learn how to assign variable, upload packages, perform simple but very useful R functions.
 
 --- type:NormalExercise xp:50 skills:1 key:1f9a0ebdf7
 ## Introduction
 
-1. Introduction to R and RStudio [Intro to R studio] (https://www.slideshare.net/obscrivn/introduction-to-rstudio)
-2. Intro to Data Types 
+1. Introduction to RStudio [R studio 101] (http://dss.princeton.edu/training/RStudio101.pdf)
+2. Intro to R Basics [Day 1 Lecture slides]
 3. 
 ##### Learning how to use R Editor
 1.*R Editor* - top right; *Console* - bottom right.
