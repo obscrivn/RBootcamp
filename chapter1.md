@@ -7,7 +7,7 @@ description : R Basics. You will work with various data types, learn how to assi
 
 1. Introduction to RStudio [R studio 101] (http://dss.princeton.edu/training/RStudio101.pdf)
 2. Intro to R Basics [Day 1 Lecture slides]
-3. 
+ 
 ##### Learning how to use R Editor
 1.*R Editor* - top right; *Console* - bottom right.
 2. Type R code in the editor and hit the 'Submit Answer' button to execute R.
