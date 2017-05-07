@@ -58,7 +58,7 @@ success_msg("Awesome!")
 ## Getting Help
 You can consult ?help command if you need to learn about commands or functions.
 
-Type in the console ` ?length `. Can you tell what the command does?
+Type in the console ` ?length `. Click `enter`. Can you tell what the command does?
 
 Find now what the function ` aggregate `. Read the instructions and select the correct answer:
 
@@ -84,7 +84,7 @@ Find now what the function ` aggregate `. Read the instructions and select the c
 *** =sct
 ```{r}
 msg1 = "Try again"
-msg2 = "Well done. Proceed to the next exercise"
+msg2 = "Well done!"
 msg3 = "Try again"
 test_mc(correct = 2, feedback_msgs = c(msg1,msg2,msg3))
 ```
