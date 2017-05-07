@@ -1,6 +1,6 @@
 ---
 title       : Chapter 1
-description : R Basics. You will work with various data types, learn how to assign variable, upload packages, perform simple but very useful R functions.
+description : R Basics. You will work with various data types (integers, numeric, characters) and learn how to assign variable.
 
 --- type:NormalExercise xp:50 skills:1 key:1f9a0ebdf7
 ## Introduction

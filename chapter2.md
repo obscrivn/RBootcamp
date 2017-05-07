@@ -1,6 +1,6 @@
 ---
 title       : Chapter 2
-description : Files manipulation
+description : Vectors
   
 --- type:NormalExercise xp:100 skills:1 key:960f76760f
 
