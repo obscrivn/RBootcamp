@@ -11,15 +11,6 @@ description : Setting up projects, directories and installing packages
 *** =video_link
 https://iu.box.com/s/7631mxi7eyczxfu41l51hqzgi7fhubol
 
---- type:VideoExercise lang:r xp:50 skills:1 key:031a25d1d4
-## <<<New Exercise>>>
-
-
-*** =video_link
-//player.vimeo.com/video/154783078
-
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:2035d5aaec
-## <<<New Exercise>>>
 
 
 *** =instructions
