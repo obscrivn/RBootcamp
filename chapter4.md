@@ -46,7 +46,7 @@ bottomright <- "packages"
 
 *** =sct
 ```{r}
-test_output_contains("script", incorrect_msg = "try again 1.")
+test_output_contains("\"script\"", incorrect_msg = "try again 1.")
 test_output_contains("topright <- \"history\"", incorrect_msg = "make sure your string is spelled correctly.")
 test_output_contains("bottomleft <- \"console\"", incorrect_msg = "try again 3.")
 test_output_contains("bottomright <- \"packages\"", incorrect_msg = "try again 4.")
