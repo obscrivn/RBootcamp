@@ -13,7 +13,7 @@ Click on the link to view the screenshot
 *** =instructions
 - Examine the screenshot of RStudio
 - In the R-Editor, complete the decsription of each of the four windowns in RStudio
-- Choices are **console**, **packages, plots, help**, **script**, **history** 
+- Choices are **console**, **packages**, **script**, **history** 
 *** =hint
 
 
@@ -41,15 +41,15 @@ topright <- "history"
 
 bottomleft <- "console"
 
-bottomright <- "packages, plots, help"
+bottomright <- "packages"
 ```
 
 *** =sct
 ```{r}
-test_output_contains(`topleft <- "script"`, incorrect_msg = "try again.")
-test_output_contains(`topright <- "history"`, incorrect_msg = "make sure your string is spelled correctly.")
-test_output_contains(`bottomleft <- "console"`, incorrect_msg = "try again.")
-test_output_contains(`bottomright <- "packages, plots, help"`, incorrect_msg = "try again.")
+test_output_contains("topleft <- \"script\"", incorrect_msg = "try again.")
+test_output_contains("topright <- \"history\"", incorrect_msg = "make sure your string is spelled correctly.")
+test_output_contains("bottomleft <- \"console\"", incorrect_msg = "try again.")
+test_output_contains("bottomright <- \"packages, plots, help\"", incorrect_msg = "try again.")
 success_msg("Awesome!")
 ```
 
