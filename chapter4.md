@@ -56,11 +56,16 @@ success_msg("Awesome!")
 
 --- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:d729bc62a5
 ## Getting Help
-You have encounter a new function **paste0**. You will use console to ask for help learning about the function.
+You can consult ?help command if you need to learn about commands or functions.
+
+Type in the console ` ?length `. Can you tell what the command does?
+
+Find now what the function ` aggregate `. Read the instructions and select the correct answer:
+
 
 *** =instructions
 - length of variable
-- summary of table
+- compute summary statistics
 - concatenate string
 *** =hint
 
@@ -79,7 +84,7 @@ You have encounter a new function **paste0**. You will use console to ask for he
 *** =sct
 ```{r}
 msg1 = "Try again"
-msg2 = "Try again!"
-msg3 = "Well done. Proceed to the next exercise"
-test_mc(correct = 3, feedback_msgs = c(msg1,msg2,msg3))
+msg2 = "Well done. Proceed to the next exercise"
+msg3 = "Try again"
+test_mc(correct = 2, feedback_msgs = c(msg1,msg2,msg3))
 ```
