@@ -1,5 +1,5 @@
 ---
-title       : Day 1
+title       : Chapter 1
 description : R Basics. You will work with various data types, learn how to assign variable, upload packages, perform simple but very useful R functions.
 
 --- type:NormalExercise xp:50 skills:1 key:1f9a0ebdf7

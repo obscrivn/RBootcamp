@@ -1,6 +1,6 @@
 ---
-title       : Day 2
-description : Data manipulation
+title       : Chapter 2
+description : Files manipulation
   
 --- type:NormalExercise xp:100 skills:1 key:960f76760f
 

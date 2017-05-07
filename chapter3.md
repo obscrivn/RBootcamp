@@ -1,6 +1,6 @@
 ---
-title       : Day 3
-description : Statistical analysis
+title       : Chapter 3
+description : String Manipulations
 
 --- type:NormalExercise xp:100 skills:1 key:8156a925e3
 
