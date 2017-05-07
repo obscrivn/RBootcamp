@@ -49,7 +49,7 @@ bottomright <- "packages"
 test_output_contains("topleft <- \"script\"", incorrect_msg = "try again.")
 test_output_contains("topright <- \"history\"", incorrect_msg = "make sure your string is spelled correctly.")
 test_output_contains("bottomleft <- \"console\"", incorrect_msg = "try again.")
-test_output_contains("bottomright <- \"packages, plots, help\"", incorrect_msg = "try again.")
+test_output_contains("bottomright <- \"packages\"", incorrect_msg = "try again.")
 success_msg("Awesome!")
 ```
 
