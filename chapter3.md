@@ -98,9 +98,9 @@ my_list[[3]][1]
 
 *** =sct
 ```{r}
-test_object("length(my_list)", incorrect_msg = "make sure to use correct syntax")
-test_object("my_list[[1]]", incorrect_msg = "make sure to use square brackets")
-test_object("my_list[[3]]", incorrect_msg = "make sure to use correct syntax")
-test_object("my_list[[3]][1]", incorrect_msg = "make sure to use correct syntax")
+test_output_contains("length(my_list)", incorrect_msg = "make sure to use correct syntax")
+test_output_contains("my_list[[1]]", incorrect_msg = "make sure to use square brackets")
+test_output_contains("my_list[[3]]", incorrect_msg = "make sure to use correct syntax")
+test_output_contains("my_list[[3]][1]", incorrect_msg = "make sure to use correct syntax")
 success_msg("Well done!")
 ```
