@@ -47,8 +47,8 @@ In this exercice you will practice:
 *** =instructions
 - What is the length of the vector ` myvector1 `
 - Find the 1st element of the vector ` myvector1 `
-- Extract the first and the second element
-- Extract the 1st and the third element
+- Extract the first and the second elements
+- Extract the 1st and the third elements
 *** =hint
 Remember to use length() and class()
 
@@ -84,11 +84,12 @@ length(myvector1)
 # extract element 1
 myvector1[1]
 
-# extract element 1 and 2
+# extract elements 1 and 2
 myvector1[1:2]
 
-# extract element 1 and 3
+# extract elements 1 and 3
 myvector1[c(1,3)]
+
 ```
 
 *** =sct
