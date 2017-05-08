@@ -161,7 +161,7 @@ success_msg("Great! Head over to the next exercise.")
 * A **character**  is used to represent string:
 `name <- "John"`
 
-* Character strings can be `paste` together:
+* You can  `paste` together character strings:
 
  `fname <- Mary`
  
@@ -225,7 +225,7 @@ success_msg("Great! Head over to the next exercise.")
 ```
 
 --- type:MultipleChoiceExercise xp:50 skills:1 key:5ba953ae37
-## Data Type Quiz I
+## Data Type Quiz
 
 Select the correct data type for **x**
 
@@ -245,15 +245,15 @@ test_mc(correct = 2, feedback_msgs = c(msg1,msg2,msg3))
 ```
 
 --- type:MultipleChoiceExercise xp:50 skills:1 key:a0f4522f4e
-## Data Type Quiz II
+## Variable Name Quiz
 
-Select the correct data type for **x**
+Select the correct variable name assignment:
 
-`x <- TRUE` 
 *** =instructions
-- logical
-- character
-- numeric
+- `.mytable`
+- `mytable%`
+- `2mytable`
+- `my_table`
 
 *** =pre_exercise_code
 ```{r}
@@ -263,8 +263,9 @@ Select the correct data type for **x**
 *** =sct
 ```{r}
 
-msg1 = "Well done. Proceed to the next exercise"
+msg1 = "Try again!"
 msg2 = "Try again!"
 msg3 = "Try again!"
-test_mc(correct = 1, feedback_msgs = c(msg1,msg2,msg3))
+msg4 = "Well done!"
+test_mc(correct = 4, feedback_msgs = c(msg1,msg2,msg3,msg4))
 ```
