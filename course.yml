@@ -7,5 +7,7 @@ instructors:
    - obscrivn@indiana.edu
    -  majdavis@iu.edu
 description: This is the first day of 5-day long RBootcamp. During 5 days you will master the basics of r programming language. You will learn
-  how to process, analyze and visualize your data. Each day you will have a lecture (slides are attached) and hands-on activities using DataCamp. Allow yourself 2 hours to complete lectures and practice. For additional practice, you can use materials from https://www.datacamp.com/courses/free-introduction-to-r and http://www.cookbook-r.com/.
+  how to process, analyze and visualize your data. Each day you will have a lecture (slides are attached) and hands-on activities using DataCamp. Allow yourself 2 hours to complete lectures and practice. 
+  Slides - https://www.slideshare.net/obscrivn/rbootcamp-day-1 
+  For additional practice, you can use materials from https://www.datacamp.com/courses/free-introduction-to-r and http://www.cookbook-r.com/.
 from: "r-base-prod:19"
